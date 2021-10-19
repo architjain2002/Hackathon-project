@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5>Symptoms:</h5>
+    <% data.forEach(info=>{%>
+
+            <p><%= info.symptoms1 %></p>
+            <p><%= info.symptoms2 %></p>
+            <p><%= info.symptoms3 %></p>
+
+            <% })
+    %>
+    <h5>Disease:</h5>
+    <% data.forEach(info=>{%>
+        <p><%= info.disease %></p>
+        <%})
+    %>
+    <h5>Precautions:</h5>
+    <% data.forEach(info=>{%>
+        <p><%= info.precautions_1 %></p>
+        <p><%= info.precautions_2 %></p>
+        <p><%= info.precautions_3 %></p>
+        <p><%= info.precautions_4 %></p>
+        <%})
+    %>
+    <h5>Description:</h5>
+    <% data.forEach(info=>{%>
+        <p><%= info.description %></p>
+        <%})
+    %>
+    
+</body>
+</html>

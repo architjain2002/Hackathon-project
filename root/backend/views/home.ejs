@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "/health" method = "POST" onsubmit="Loading();"> 
+        <select name="Symptom_1">
+            <option>vomiting</option>
+            <option>fatigue</option>
+            <option>3rd-symp</option>
+        </select>
+
+        <select name="Symptom_2">
+            <option>loss_of_appetite</option>
+            <option>weight_loss</option>
+            <option>3rd-symp</option>
+        </select>
+
+        <select name="Symptom_3">
+            <option>passage_of_gases</option>
+            <option>restlessness</option>
+            <option>3rd-symp</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function Loading()
+        {
+            document.getElementById("head").innerHTML = "Loading...";
+        }
+    </script>
+    <h1 id="head"></h1>
+</body>
+</html>

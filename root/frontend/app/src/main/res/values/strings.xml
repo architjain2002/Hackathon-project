@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hackathon App</string>
+    <string name="app_name">VirtualDoctor</string>
     <string-array name="symptom1">
         <item>itching</item>
         <item>skin_rash</item>

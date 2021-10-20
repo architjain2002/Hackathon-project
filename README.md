@@ -1,5 +1,3 @@
-# Welcome to our VirtualDoctor Application!
-
 Lets make things virtual!
 
 Things which were once just a vision are turning into reality using **Machine Learning and Artificial Intelligence**.
@@ -37,6 +35,15 @@ Things like automated cars and aero-planes and the public flights are also autom
 **Right now our human mindset has never experienced being consulted or diagnosed by virtual doctors but when we realize how realistic and accurate diagnostics the machine can give we will sooner or later be adjusted and the life of automation will begin. There will be time when machines will surpass humans in health too and this application could be the first step towards it!!**
 
 ***Fun fact: The covid-19 vaccines were tested by huge neural network model which were used in full capacity to produce vaccine.***
+## Technologies used
+**Front-end:** Android studio, Kotlin,Retrofit.
+
+**Back-end:** Nodejs,Expressjs,Ejs
+
+**Database:** Mongodb
+
+**Machine-Learning Model:** Tensorflow,Keras,Scikit-Learn
+
 ## Alright lets begin the Installation
 #### Step1:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the **requirements.txt** to install the Machine Learning libraries used.

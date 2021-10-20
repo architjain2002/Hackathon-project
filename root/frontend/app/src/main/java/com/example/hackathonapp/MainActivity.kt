@@ -1,13 +1,28 @@
 package com.example.hackathonapp
 
+import android.Manifest
+import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.location.Location
+import android.location.LocationManager
+import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Looper
+import android.util.Log
+import android.view.View
+import android.webkit.WebSettings
+import android.webkit.WebView
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import androidx.core.location.LocationManagerCompat
 import androidx.core.view.isVisible
+import com.google.android.gms.location.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.dropdown_item.*
 import kotlinx.android.synthetic.main.result.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -15,12 +30,14 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.OkHttpClient
+import org.json.JSONObject
+import java.net.URL
 import java.util.concurrent.TimeUnit
 
 
 class MainActivity : AppCompatActivity() {
     private var retrofitInterface: RetrofitInterface? = null
-    private val BASE_URL = "http://10.0.2.2:3000"
+    private val BASE_URL = "http://192.168.29.166:3000"
     var client = OkHttpClient.Builder()
         .connectTimeout(100, TimeUnit.SECONDS)
         .readTimeout(100, TimeUnit.SECONDS).build()
@@ -47,7 +64,6 @@ class MainActivity : AppCompatActivity() {
         autocompleteTV.setAdapter(arrayAdapter1)
         autocompleteTV2.setAdapter(arrayAdapter2)
         autocompleteTV3.setAdapter(arrayAdapter3)
-
         button.setOnClickListener {
             progressBar.isVisible = true
             textView6.isVisible = true
@@ -79,6 +95,9 @@ class MainActivity : AppCompatActivity() {
                     textView2.text = "Precautions that you can take :-\n"+rep!!.precautions_1 + "\n" + rep.precautions_2 + "\n" + rep.precautions_3 + "\n" + rep.precautions_4
                     textView3.text = "Disease:-\n"+rep.disease
                     textView4.text = "Description of the disease:-\n"+rep.description
+                    val webSettings = webView.settings
+                    webSettings.javaScriptEnabled = true
+                    webView.loadUrl("https://en.m.wikipedia.org/wiki/${rep.disease}")
                     Toast.makeText(this@MainActivity,"Successfully added",Toast.LENGTH_SHORT).show()
                 }else{
                     Toast.makeText(this@MainActivity,"Some error occured", Toast.LENGTH_SHORT).show()
@@ -90,3 +109,4 @@ class MainActivity : AppCompatActivity() {
         });
     }
 }
+

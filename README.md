@@ -78,7 +78,7 @@ now if you want to runt this apk in your personal device go to **build-rebuild p
 #### Step7:
 And there you go now you have your personal doctor ready!!
 ## Visuals
-![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg)
+![screenshot]()
 ![screenshot](https://github.com/architjain2002/Hackathon-project/blob/master/Visuals/Screenshot_2021-10-21-03-14-47-334_com.example.hackathonapp.jpg)
 ![screenshot](https://github.com/architjain2002/Hackathon-project/blob/master/Visuals/Screenshot_2021-10-21-03-15-22-526_com.example.hackathonapp.jpg)
 ## Issues we ran into

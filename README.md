@@ -70,6 +70,12 @@ Now you need to first open our app.js in the backend and change the hostname fro
 const hostname = "x.x.x.x"  // Enter your ip address of your internet service provider here
 ```
 #### Step5:
+Now when you open the front-end part in android studio **change the ip address in base url to your ip address now run the app on emulator** and you are good to go.
+
+#### Step6:
+now if you want to runt this apk in your personal device go to **build-rebuild project** now wait for the gradle build to finish and then go to the directory where you have cloned the project and then go to your directory tor un the apk. App/build/outputs/apk/debug/ and you have reached your directory for your apk and you can download and install and successfully run it on your smartphone device.
+
+#### Step7:
 And there you go now you have your personal doctor ready!!
 ## Visuals
 ![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg)

@@ -74,6 +74,7 @@ And there you go now you have your personal doctor ready!!
 ## Issues we ran into
 - While integrating our machine learning model with the backend and later the front end integration to display the contents were being timed out.
 - While fetching API's.
+- Couldn't fetch google maps api because of google's billing issue.
 ## Authors and acknowledgment
 I would like to thank @eddy1006 for his contribution in this wonderful project and ideas.
 

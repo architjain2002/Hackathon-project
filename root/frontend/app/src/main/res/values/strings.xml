@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Hackathon App</string>
     <string-array name="symptom1">
-        <item>vomiting</item>
-        <item>fatigue</item>
-        <item>3rd-symp</item>
         <item>itching</item>
         <item>skin_rash</item>
         <item>continuous_sneezing</item>
@@ -13,15 +10,136 @@
         <item>vomiting</item>
         <item>indigestion</item>
         <item>muscle_wasting</item>
+        <item>patches_in_throat</item>
+        <item>fatigue</item>
+        <item>weight_loss</item>
+        <item>sunken_eyes</item>
+        <item>cough</item>
+        <item>headache</item>
+        <item>chest_pain</item>
+        <item>back_pain</item>
+        <item>weakness_in_limbs</item>
+        <item>chills</item>
+        <item>joint_pain</item>
+        <item>yellowish_skin</item>
+        <item>constipation</item>
+        <item>pain_during_bowel_movements</item>
+        <item>breathlessness</item>
+        <item>cramps</item>
+        <item>weight_gain</item>
+        <item>mood_swings</item>
+        <item>neck_pain</item>
+        <item>muscle_weakness</item>
+        <item>stiff_neck</item>
+        <item>pus_filled_pimples</item>
+        <item>burning_micturition</item>
+        <item>bladder_discomfort</item>
+        <item>high_fever</item>
     </string-array>
     <string-array name="symptom2">
+        <item>skin_rash</item>
+        <item>nodal_skin_eruptions</item>
+        <item>shivering</item>
+        <item>chills</item>
+        <item>acidity</item>
+        <item>ulcers_on_tongue</item>
+        <item>vomiting</item>
+        <item>yellowish_skin</item>
+        <item>stomach_pain</item>
         <item>loss_of_appetite</item>
+        <item>indigestion</item>
+        <item>patches_in_throat</item>
+        <item>high_fever</item>
         <item>weight_loss</item>
-        <item>3rd-symp</item>
+        <item>restlessness</item>
+        <item>sunken_eyes</item>
+        <item>dehydration</item>
+        <item>cough</item>
+        <item>chest_pain</item>
+        <item>dizziness</item>
+        <item>headache</item>
+        <item>weakness_in_limbs</item>
+        <item>neck_pain</item>
+        <item>weakness_of_one_body_side</item>
+        <item>fatigue</item>
+        <item>joint_pain</item>
+        <item>lethargy</item>
+        <item>nausea</item>
+        <item>abdominal_pain</item>
+        <item>pain_during_bowel_movements</item>
+        <item>pain_in_anal_region</item>
+        <item>breathlessness</item>
+        <item>sweating</item>
+        <item>cramps</item>
+        <item>bruising</item>
+        <item>weight_gain</item>
+        <item>cold_hands_and_feets</item>
+        <item>mood_swings</item>
+        <item>anxiety</item>
+        <item>knee_pain</item>
+        <item>stiff_neck</item>
+        <item>swelling_joints</item>
+        <item>pus_filled_pimples</item>
+        <item>blackheads</item>
+        <item>bladder_discomfort</item>
+        <item>foul_smell_of urine</item>
+        <item>skin_peeling</item>
+        <item>blister</item>
     </string-array>
     <string-array name="symptom3">
-        <item>passage_of_gases</item>
+        <item>nodal_skin_eruptions</item>
+        <item>dischromic _patches</item>
+        <item>chills</item>
+        <item>watering_from_eyes</item>
+        <item>ulcers_on_tongue</item>
+        <item>vomiting</item>
+        <item>yellowish_skin</item>
+        <item>nausea</item>
+        <item>stomach_pain</item>
+        <item>burning_micturition</item>
+        <item>abdominal_pain</item>
+        <item>loss_of_appetite</item>
+        <item>high_fever</item>
+        <item>extra_marital_contacts</item>
         <item>restlessness</item>
-        <item>3rd-symp</item>
+        <item>lethargy</item>
+        <item>dehydration</item>
+        <item>diarrhoea</item>
+        <item>breathlessness</item>
+        <item>dizziness</item>
+        <item>loss_of_balance</item>
+        <item>headache</item>
+        <item>blurred_and_distorted_vision</item>
+        <item>neck_pain</item>
+        <item>weakness_of_one_body_side</item>
+        <item>altered_sensorium</item>
+        <item>fatigue</item>
+        <item>weight_loss</item>
+        <item>sweating</item>
+        <item>joint_pain</item>
+        <item>dark_urine</item>
+        <item>swelling_of_stomach</item>
+        <item>cough</item>
+        <item>pain_in_anal_region</item>
+        <item>bloody_stool</item>
+        <item>chest_pain</item>
+        <item>bruising</item>
+        <item>obesity</item>
+        <item>cold_hands_and_feets</item>
+        <item>mood_swings</item>
+        <item>anxiety</item>
+        <item>knee_pain</item>
+        <item>hip_joint_pain</item>
+        <item>swelling_joints</item>
+        <item>movement_stiffness</item>
+        <item>spinning_movements</item>
+        <item>blackheads</item>
+        <item>scurring</item>
+        <item>foul_smell_of urine</item>
+        <item>continuous_feel_of_urine</item>
+        <item>skin_peeling</item>
+        <item>silver_like_dusting</item>
+        <item>blister</item>
+        <item>red_sore_around_nose</item>
     </string-array>
 </resources>

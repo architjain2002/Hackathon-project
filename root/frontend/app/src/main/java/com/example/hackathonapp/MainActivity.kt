@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
     private var retrofitInterface: RetrofitInterface? = null
-    private val BASE_URL = "http://192.168.29.166:3000"
+    private val BASE_URL = "http://10.0.2.2:3000"
     var client = OkHttpClient.Builder()
         .connectTimeout(100, TimeUnit.SECONDS)
         .readTimeout(100, TimeUnit.SECONDS).build()

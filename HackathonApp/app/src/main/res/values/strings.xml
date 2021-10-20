@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hackathon App</string>
+    <string-array name="symptom1">
+        <item>vomiting</item>
+        <item>fatigue</item>
+        <item>3rd-symp</item>
+        <item>itching</item>
+        <item>skin_rash</item>
+        <item>continuous_sneezing</item>
+        <item>shivering</item>
+        <item>stomach_pain</item>
+        <item>acidity</item>
+        <item>vomiting</item>
+        <item>indigestion</item>
+        <item>muscle_wasting</item>
+    </string-array>
+    <string-array name="symptom2">
+        <item>loss_of_appetite</item>
+        <item>weight_loss</item>
+        <item>3rd-symp</item>
+    </string-array>
+    <string-array name="symptom3">
+        <item>passage_of_gases</item>
+        <item>restlessness</item>
+        <item>3rd-symp</item>
+    </string-array>
+</resources>

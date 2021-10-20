@@ -60,7 +60,7 @@ MongoClient.connect(url, function (err, db) {
                     info = result;
                     console.log(info);
                     console.log(objectId);
-                    res.send('outputdata', { data: info });
+                    res.render('outputdata', { data: info });
                 })
             })
         })

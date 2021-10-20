@@ -1,3 +1,5 @@
+# Welcome to our VirtualDoctor Application!
+
 Lets make things virtual!
 
 Things which were once just a vision are turning into reality using **Machine Learning and Artificial Intelligence**.
@@ -80,3 +82,4 @@ I would also thank bit by bit hackathon team to provide us with a great opportun
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+

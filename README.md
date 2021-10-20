@@ -72,7 +72,7 @@ const hostname = "x.x.x.x"  // Enter your ip address of your internet service pr
 #### Step5:
 And there you go now you have your personal doctor ready!!
 
-![screenshot](visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg?raw=true)
+![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg?raw=true)
 ## Issues we ran into
 - While integrating our machine learning model with the backend and later the front end integration to display the contents were being timed out.
 - While fetching API's.

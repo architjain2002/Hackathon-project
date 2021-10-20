@@ -79,7 +79,7 @@ now if you want to runt this apk in your personal device go to **build-rebuild p
 And there you go now you have your personal doctor ready!!
 ## Visuals
 ![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg)
-![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg)
+![screenshot](https://github.com/architjain2002/Hackathon-project/blob/master/Visuals/Screenshot_2021-10-21-03-14-47-334_com.example.hackathonapp.jpg)
 ![screenshot](https://github.com/architjain2002/Hackathon-project/tree/master/Visuals/Screenshot_2021-10-21-03-14-41-853_com.example.hackathonapp.jpg)
 ## Issues we ran into
 - While integrating our machine learning model with the backend and later the front end integration to display the contents were being timed out.

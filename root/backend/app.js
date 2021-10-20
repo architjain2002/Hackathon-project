@@ -52,15 +52,20 @@ MongoClient.connect(url, function (err, db) {
                 childprocess();
                 setTimeout(function () {
                     res.redirect('/showdata')
-                }, 20000);
+                }, 25000);
             })
             app.get('/showdata', (req, res) => {
                 var query = { _id: objectId };
-                database.collection("Symptoms").find(query).toArray(function (err, result) {
+                database.collection("Symptoms").findOne(query,(err, result)=>{
+                    if(result != null){
                     info = result;
                     console.log(info);
                     console.log(objectId);
                     res.render('outputdata', { data: info });
+                    res.status(200).send(JSON.stringify(result))
+                }else{
+                    res.status(404).send()    
+                }
                 })
             })
         })
